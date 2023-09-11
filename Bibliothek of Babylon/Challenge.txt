@@ -1,0 +1,4 @@
+Title: Bibliothek of Babylon
+Category: OSINT
+Difficulty: Easy
+Discription: Wrap the flag in BITSCTF{}

@@ -1,0 +1,4 @@
+Title: Who's That Pokemon
+Category: OSINT
+Difficulty: Medium
+Discription: Wrap the flag in BITSCTF{}
