@@ -10,7 +10,7 @@ function checkLogin() {
 
     if (usernameInput === validUsername && passwordInput === validPassword) {
         // Redirect to a new page (replace 'redirect_page.html' with your desired URL)
-        window.location.href = "redirect_page.html";
+        window.location.href = "flag-bits-floof.html";
     } else {
         // Display an error message
         document.getElementById("message").innerHTML = "Invalid username or password. Please try again.";
