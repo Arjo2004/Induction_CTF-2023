@@ -1,0 +1,18 @@
+<html>
+<title>Find me</title>
+<form >
+    <fieldset style="width:400px;border: 2px solid #486f9a;border-radius: 5px;padding: 10px;">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+        
+            <input type="button" value="Login" onclick="login()">
+    </fieldset><br><br>
+</form>
+    <script>
+        console.log("Oh you thought there was something here?");                                                                                                                                                                                                                    function login() { var username = document.getElementById("username").value; var password = document.getElementById("password").value; if (username === "bitskrieg" && password === "mysqlisdakey") { window.location.href = "hEredalagF.html"; } else { alert("Invalid username or password. Please try again."); } }                                                                           
+    </script>
+</html>
+   
