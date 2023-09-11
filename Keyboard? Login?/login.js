@@ -2,8 +2,8 @@
 
 function checkLogin() {
     // Replace these with your actual login credentials
-    const validUsername = "your_username";
-    const validPassword = "your_password";
+    const validUsername = "floofcat";
+    const validPassword = "bitskrieg@69420";
 
     const usernameInput = document.getElementById("username").value;
     const passwordInput = document.getElementById("password").value;
