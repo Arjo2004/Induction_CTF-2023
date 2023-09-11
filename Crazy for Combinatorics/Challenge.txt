@@ -1,0 +1,14 @@
+Find the number of solutions for the following equation and wrap it in BITSCTF{}
+
+
+a + b + c + d + e + f + g = 3869
+
+29 ≤ a ≤ 913
+219 ≤ b ≤ 416
+81 ≤ c ≤ 91
+2 ≤ d ≤ 3819
+168 ≤ e ≤ 428
+69 ≤ f ≤ 420
+99 ≤ g ≤ 999
+
+where a, b, c, d, e, f, g are integers.
