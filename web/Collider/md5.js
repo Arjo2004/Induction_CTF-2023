@@ -2,14 +2,14 @@ const express = require('express');
 const multer = require('multer');
 const crypto = require('crypto');
 const app = express();
-const port = 3000;
+const port = 6225;
 
 // Configure multer to handle file uploads
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
 // Serve the HTML form to upload files
-app.get('/', (req, res) => {
+app.get('/chall4', (req, res) => {
   res.send(`
     <html>
       <body>
