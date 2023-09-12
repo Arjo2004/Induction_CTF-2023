@@ -1,0 +1,8 @@
+
+
+I gave an interview for an internship at Amazon. The interviewer gave me this website and asked me to extract the hidden message. He also gave me the following advice
+“Optimism is a nice quality but it won't work this time. Our director always says that one should search for the different qualities that humans possess.”
+ Can you figure what this hidden message was.
+
+
+http://buckethalfempty.s3-website-ap-southeast-1.amazonaws.com/
