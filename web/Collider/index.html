@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Comparison</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Comparison</h1>
+        <form action="/compare" method="post" enctype="multipart/form-data">
+            <label for="file1">Select the first file:</label><br>
+            <input type="file" id="file1" name="file1" required><br>
+            <label for="file2">Select the second file:</label><br>
+            <input type="file" id="file2" name="file2" required><br>
+            <label class="file-input-label" for="file1">Choose File 1</label>
+            <label class="file-input-label" for="file2">Choose File 2</label><br>
+            <button type="submit">Compare Files</button>
+        </form>
+    </div>
+</body>
+</html>
