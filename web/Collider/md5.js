@@ -8,8 +8,10 @@ const port = 6225;
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
+app.use('/chall4', express.static(__dirname + '/public'))
+
 // Serve the HTML form to upload files
-app.get('/chall4', (req, res) => {
+app.get('/chall4/', (req, res) => {
   res.send(`
     <html>
       <body>
@@ -25,7 +27,7 @@ app.get('/chall4', (req, res) => {
 });
 
 // Handle the file comparison when the form is submitted
-app.post('/compare', upload.fields([{ name: 'file1', maxCount: 1 }, { name: 'file2', maxCount: 1 }]), (req, res) => {
+app.post('/chall4/compare', upload.fields([{ name: 'file1', maxCount: 1 }, { name: 'file2', maxCount: 1 }]), (req, res) => {
   try {
     const file1Contents = req.files['file1'][0].buffer;
     const file2Contents = req.files['file2'][0].buffer;
