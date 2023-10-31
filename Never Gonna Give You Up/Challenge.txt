@@ -1,4 +1,0 @@
-Title: Never Gonna Give You Up
-Category: Forensics
-Difficulty: Medium
-Discription: (No Discription)
