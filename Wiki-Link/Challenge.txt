@@ -1,4 +1,0 @@
-Title: Wiki-Link
-Category: OSINT
-Difficulty: Easy
-Description: I wonder what is the shortest way to go from "Blitzkrieg" Wikipedia page to "Swiggy" Wikipedia page just by using hyperlinks available on the wikipedia pages.... (If the shotest way is Blitzkrieg --> Example A --> Example B --> Example C --> Swiggy, enter the flag: BITSCTF{Example_A-Example_B-Example_C}
